@@ -1,0 +1,63 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b4e3a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bodyDe {
+    text-align: center;
+    background: #d6b76f;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgb(159, 35, 35);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.btnDesign {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button#btnStart {
+    background-color: #28a745;
+    color: white;
+}
+
+button#btnStop {
+    background-color: #dc3545;
+    color: white;
+}
+
+button#btnReset {
+    background-color: #ffc107;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
